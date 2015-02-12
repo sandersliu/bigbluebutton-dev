@@ -4,6 +4,7 @@ FROM sandersliu/bbb090
 MAINTAINER sanders liu "sandersliu@hotmail.com"
 # Set correct environment variables.
 
+RUN bbb-conf --stop
 
 RUN apt-get install -y git-core ant openjdk-6-jdk 
 
