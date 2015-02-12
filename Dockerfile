@@ -5,7 +5,7 @@ MAINTAINER sanders liu "sandersliu@hotmail.com"
 # Set correct environment variables.
 
 
-RUN apt-get install git-core ant openjdk-6-jdk 
+RUN apt-get install -y git-core ant openjdk-6-jdk 
 
 RUN mkdir -p ~/dev/tools
 RUN cd ~/dev/tools
